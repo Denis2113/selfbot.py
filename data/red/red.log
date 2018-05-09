@@ -1,0 +1,160 @@
+[08/05/2018 13:54] ERROR red load_cogs 573: You need to run `pip3 install youtube_dl`
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\audio.py", line 2528, in setup
+    raise RuntimeError("You need to run `pip3 install youtube_dl`")
+RuntimeError: You need to run `pip3 install youtube_dl`
+[08/05/2018 13:54] ERROR red load_cogs 573: You need the imgurpython module to use this.
+pip3 install imgurpython
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\image.py", line 165, in setup
+    raise RuntimeError("You need the imgurpython module to use this.\n"
+RuntimeError: You need the imgurpython module to use this.
+pip3 install imgurpython
+[08/05/2018 15:36] ERROR red load_cogs 573: ('invalid syntax', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 679, 26, '                    return\n'))
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\mod.py", line 679
+    return
+         ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('invalid syntax', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 679, 26, '                    return\n'))
+[08/05/2018 15:52] INFO economy _set 393: 3112sineD(295509119694143488) set 500000 credits to 3112sineD (295509119694143488)
+[08/05/2018 16:15] INFO economy _set 393: 3112sineD(295509119694143488) a setat 5000000000000000000000000000000000000 bani la Unchiul bunic (424441909214183425)
+[08/05/2018 16:16] INFO economy _set 386: 3112sineD(295509119694143488) au fost scoti 5000000000000000000000000000000000000 banuti la Unchiul bunic (424441909214183425)
+[08/05/2018 17:05] ERROR owner load 69: ('invalid syntax', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 679, 26, '                    return\n'))
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\mod.py", line 679
+    return
+         ^
+SyntaxError: invalid syntax
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('invalid syntax', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 679, 26, '                    return\n'))
+[08/05/2018 17:27] ERROR red load_cogs 573: ('unexpected indent', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 853, 12, '            return\n'))
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\mod.py", line 853
+    return
+    ^
+IndentationError: unexpected indent
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 950, in _load_cog
+    raise CogLoadError(*e.args)
+cogs.owner.CogLoadError: ('unexpected indent', ('C:\\Users\\Denis\\Desktop\\Red-DiscordBot-develop\\Red-DiscordBot-develop\\cogs\\mod.py', 853, 12, '            return\n'))
+[08/05/2018 18:07] ERROR owner load 74: You need to run `pip3 install youtube_dl`
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\audio.py", line 2528, in setup
+    raise RuntimeError("You need to run `pip3 install youtube_dl`")
+RuntimeError: You need to run `pip3 install youtube_dl`
+[08/05/2018 18:16] ERROR owner load 74: You need the imgurpython module to use this.
+pip3 install imgurpython
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\image.py", line 165, in setup
+    raise RuntimeError("You need the imgurpython module to use this.\n"
+RuntimeError: You need the imgurpython module to use this.
+pip3 install imgurpython
+[08/05/2018 19:16] ERROR owner load 74: You need to run `pip3 install youtube_dl`
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\audio.py", line 2528, in setup
+    raise RuntimeError("You need to run `pip3 install youtube_dl`")
+RuntimeError: You need to run `pip3 install youtube_dl`
+[08/05/2018 19:16] ERROR owner load 74: You need the imgurpython module to use this.
+pip3 install imgurpython
+Traceback (most recent call last):
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 65, in load
+    self._load_cog(module)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\owner.py", line 948, in _load_cog
+    self.bot.load_extension(mod_obj.__name__)
+  File "C:\Users\Denis\AppData\Local\Programs\Python\Python36-32\lib\site-packages\discord\ext\commands\bot.py", line 738, in load_extension
+    lib.setup(self)
+  File "C:\Users\Denis\Desktop\Red-DiscordBot-develop\Red-DiscordBot-develop\cogs\image.py", line 165, in setup
+    raise RuntimeError("You need the imgurpython module to use this.\n"
+RuntimeError: You need the imgurpython module to use this.
+pip3 install imgurpython
+[08/05/2018 21:36] INFO economy _set 386: 3112sineD(295509119694143488) au fost scosi 100000 banuti la Bogdan2004 (437260406227206155)
+[08/05/2018 21:37] INFO economy _set 386: 3112sineD(295509119694143488) au fost scosi 49000500 banuti la Bogdan2004 (437260406227206155)
+[08/05/2018 21:37] INFO economy _set 386: 3112sineD(295509119694143488) au fost scosi 800000 banuti la Bogdan2004 (437260406227206155)
+[08/05/2018 21:39] INFO economy _set 393: 3112sineD(295509119694143488) a setat 1000 bani la ![~RegeleCapra~]! (ง ͠° ل͜ °)ง (386452858125680640)
